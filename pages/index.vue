@@ -10,7 +10,7 @@
         <li>
           <a href="#">
             <span>About Me</span>
-            <span>About Me</span>
+            <span @click="aboutMe()">About Me</span>
           </a>
         </li>
         <li>
@@ -269,6 +269,11 @@ import Quote from "~/components/quote"
 export default {
     components: {
         Quote
+    },
+    methods: {
+      aboutMe () {
+        this.$router.replace({ 'path': '/about' })
+      }
     }
 }
 </script>
