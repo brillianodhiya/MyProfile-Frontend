@@ -13,34 +13,28 @@
             <span @click="aboutMe()">About Me</span>
           </a>
         </li>
-        <!-- <li>
-          <a href="#">
-            <span>Skill</span>
-            <span @click="skill()">Skill</span>
-          </a>
-        </li> -->
         <li>
           <a href="#">
             <span>Education</span>
-            <span>Education</span>
+            <span @click="education()">Education</span>
           </a>
         </li>
         <li>
           <a href="#">
             <span>Experience</span>
-            <span>Experience</span>
+            <span @click="experience()">Experience</span>
           </a>
         </li>
         <li>
           <a href="#">
             <span>Project</span>
-            <span>Project</span>
+            <span @click="project()">Project</span>
           </a>
         </li>
         <li>
           <a href="#">
             <span>Team</span>
-            <span>Team</span>
+            <span @click="team()">Team</span>
           </a>
         </li>
       </ul>
@@ -273,9 +267,6 @@ export default {
     methods: {
       aboutMe () {
         this.$router.replace({ 'path': '/about' })
-      },
-      skill () {
-        this.$router.replace({ 'path': '/skill' })
       },
       education () {
         this.$router.replace({ 'path': '/education' })

@@ -345,3 +345,66 @@ section
 		transform: rotate(405deg);
 	}
 }
+.Route {
+	text-transform: capitalize;
+}
+.bannerText
+{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	max-width: 700px;
+}
+
+@media (max-width: 1280px)
+{
+	section 
+	{
+		height: auto !important;
+		display: initial;
+		padding: 100px;
+		box-sizing: border-box;
+	}
+	.bannerText 
+	{
+		position: relative;
+		top: 0;
+		left: 0;
+		margin-top: 100px;
+		transform: translateY(0);
+		max-width: 700px;
+		z-index: 1001;
+	}
+	.sci
+	{
+		z-index: 1002;
+		right: 20px;
+	}
+	.bulb
+	{
+		filter: opacity(50%);
+	}
+}
+@media (max-width: 991px)
+{
+	.bannerText h2 
+	{
+		font-size: 3em;
+	}
+	.bannerText h3 
+	{
+		font-size: 1.5em;
+	}
+	.bannerText h4
+	{
+		font-size: 1em;
+	}
+	.element1 
+	{
+		display: none;
+	}
+	.bulb {
+		filter: opacity(50%);
+	}
+}
