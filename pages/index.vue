@@ -9,8 +9,8 @@
       <ul>
         <li>
           <a href="#">
-            <span>About Me</span>
-            <span @click="aboutMe()">About Me</span>
+            <span>About</span>
+            <span @click="aboutMe()">About</span>
           </a>
         </li>
         <li>
@@ -33,8 +33,8 @@
         </li>
         <li>
           <a href="#">
-            <span>Team</span>
-            <span @click="team()">Team</span>
+            <span>Partner</span>
+            <span @click="partner()">Partner</span>
           </a>
         </li>
       </ul>
@@ -277,8 +277,8 @@ export default {
       project () {
         this.$router.replace({ 'path': '/project' })
       },
-      team () {
-        this.$router.replace({ 'path': '/team' })
+      partner () {
+        this.$router.replace({ 'path': '/partner' })
       }
     }
 }
