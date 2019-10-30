@@ -134,31 +134,31 @@ ul li:nth-child(1):before
 	background-size: cover;
   filter: opacity(0.5);
 }
-ul li:nth-child(2):before
+/* ul li:nth-child(2):before
 {
 	background: url(../assets/images/imgskill.jpg);
 	background-size: cover;
   filter: opacity(0.5);
-}
-ul li:nth-child(3):before
+} */
+ul li:nth-child(2):before
 {
 	background: url(../assets/images/imgpendidikan.jpg);
 	background-size: cover;
   filter: opacity(0.5);
 }
-ul li:nth-child(4):before
+ul li:nth-child(3):before
 {
 	background: url(../assets/images/imgwork.jpg);
 	background-size: cover;
   filter: opacity(0.5);
 }
-ul li:nth-child(5):before
+ul li:nth-child(4):before
 {
 	background: url(../assets/images/imgproject.jpg);
 	background-size: cover;
   filter: opacity(0.5);
 }
-ul li:nth-child(6):before
+ul li:nth-child(5):before
 {
 	background: url(../assets/images/imglilia.jpeg);
 	background-size: cover;
