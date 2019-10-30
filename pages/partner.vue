@@ -4,19 +4,33 @@
         <Header />
         <div class="firstcontainer">
             <div class="container">
-                <div class="box">
-                    <div class="imgBx">
-                        <img src="image2.jpg">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="~/assets/images/hakim2.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                            <h5 class="card-title mb-0"><a href="https://www.instagram.com/ginryu_/">Ananda Muhammad Luqmanul Hakim Nurohmat</a></h5>
+                            <div class="card-text text-black-50">Animator 2D / 3D</div>
+                            </div>
+                        </div>
                     </div>
-                    <ul class="socail-icon">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    </ul>
-                    <div class="details">
-                        <h2>Someone Famous<br><span>UX/UI Designer</span></h2>
+                    <div class="col-xl-4 col-md-6 mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="~/assets/images/zulfa2.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                            <h5 class="card-title mb-0"><a href="https://www.instagram.com/miyounewa_zulfa/">Aulia Zulfa Istiqomah</a></h5>
+                            <div class="card-text text-black-50">2D Line Art</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="~/assets/images/hafidh2.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Hafidh Hanan An-Nafi'</h5>
+                            <div class="card-text text-black-50">Team Support</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

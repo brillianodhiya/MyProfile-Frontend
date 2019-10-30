@@ -17,7 +17,7 @@
 }
 .thecontainer .box
 {
-    widows: 100%;
+    width: 100%;
     margin: 0 0 20px;
     padding: 10px;
     background: #fff;
